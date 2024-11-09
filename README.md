@@ -1,1 +1,1 @@
-# Event-Management-System
+# This is an Event-Management-App
