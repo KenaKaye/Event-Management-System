@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Reports</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/event_report.css">
+</head>
+
+<body>
+    <a href="../pages/admin_dashboard.html" class="back-link">
+        &#8592; Back
+    </a>
+
+    <div class="container">
+        <h2 class="text-center my-4">Event Reports</h2>
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="events-table-body">
+                <!-- Dynamic rows will be inserted here -->
+            </tbody>
+        </table>
+
+        <!-- Update Event Section -->
+        <div id="update-event-section">
+            <h3>Update Event</h3>
+            <form id="update-event-form">
+                <input type="hidden" id="update-event-id">
+                <div class="mb-3">
+                    <label for="update-event-title" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="update-event-title">
+                </div>
+                <div class="mb-3">
+                    <label for="update-event-description" class="form-label">Description</label>
+                    <textarea class="form-control" id="update-event-description"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="update-event-date" class="form-label">Date</label>
+                    <input type="datetime-local" class="form-control" id="update-event-date">
+                </div>
+                <div class="mb-3">
+                    <label for="update-event-location" class="form-label">Location</label>
+                    <input type="text" class="form-control" id="update-event-location">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="submitUpdateEvent()">Update Event</button>
+            </form>
+        </div>
+    </div>
+
+   
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/event_report.js"></script>
+</body>
+
+</html>

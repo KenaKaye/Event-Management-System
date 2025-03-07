@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+.back-link {
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Adjust top position */
+    left: 20px; /* Adjust left position */
+    font-size: 18px; /* Font size for visibility */
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* Remove underline */
+}
+.back-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.event-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 60px; /* Add top margin */
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.event-image {
+    width: 100%; /* Full width */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Spacing below image */
+}
+.btn-custom {
+    background-color: #b22222; /* Dark red */
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #a11a1a; /* Slightly darker on hover */
+}

@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+.back-link {
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Adjust top position */
+    left: 20px; /* Adjust left position */
+    font-size: 18px; /* Font size for visibility */
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* Remove underline */
+}
+.back-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.container {
+    margin-top: 40px; /* Add top margin */
+}

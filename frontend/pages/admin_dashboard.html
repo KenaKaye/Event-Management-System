@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"> <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/admin.css"> <!-- Your custom styles -->
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">AAU Events</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> <!-- Use 'ms-auto' to align items to the right -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <a href="../pages/add_event.html">
+                    <div class="card dashboard-card">
+                        <img src="../images/upload.png" alt="Add Event" class="icon">
+                        <div class="card-body">
+                            <h5>Add Event</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="../pages/event_report.html">
+                    <div class="card dashboard-card">
+                        <img src="../images/report.png" alt="Event Report" class="icon">
+                        <div class="card-body">
+                            <h5>Event Report</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="../pages/user_report.html">
+                    <div class="card dashboard-card">
+                        <img src="../images/report.png" alt="User Report" class="icon">
+                        <div class="card-body">
+                            <h5>User Report</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

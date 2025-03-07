@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Event</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"> <!-- Offline Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/add-event.css"> <!-- Custom CSS for Add Event -->
+</head>
+<body class="bg-light">
+
+<a href="../pages/admin_dashboard.html" class="back-link">&larr; Back</a> <!-- Back arrow link -->
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8 col-lg-6"> 
+            <div class="card shadow">
+                <div class="card-header text-center">
+                    <h4>Add Event</h4>
+                </div>
+                <div class="card-body">
+                    <form id="eventForm">
+                        <div class="form-group mb-4">
+                            <label for="eventName">Event Name</label>
+                            <input type="text" class="form-control" id="eventName" placeholder="Enter event title" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="eventDate">Date</label>
+                            <input type="date" class="form-control" id="eventDate" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="eventTime">Time</label>
+                            <input type="time" class="form-control" id="eventTime" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="location">Location</label>
+                            <input type="text" class="form-control" id="location" placeholder="Enter event location" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="eventDescription">Description</label>
+                            <textarea class="form-control" id="eventDescription" rows="4" placeholder="Enter event description" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Add Event</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/add-event.js"></script>
+</body>
+</html>

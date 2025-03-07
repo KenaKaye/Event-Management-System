@@ -1,0 +1,51 @@
+body {
+     background-color: #f8f9fa;
+ }
+ 
+ .hero {
+     background: url('/images/aaulogo.png') no-repeat center center;
+     background-size: cover;
+     height: 50vh;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     
+ }
+ .hero h1 {
+     font-size: 3rem;
+ }
+ 
+ .hero p {
+     font-size: 1.5rem;
+ }
+ 
+ .event-card {
+     border: 1px solid #dee2e6;
+     border-radius: 0.25rem;
+     padding: 15px;
+     background-color: #ffffff;
+ }
+
+ .event-image {
+     width: 100%; /* Make image take the full width of the card */
+     height: auto; /* Maintain aspect ratio */
+     border-radius: 5px; /* Optional: rounded corners for the image */
+     object-fit: cover; /* Ensures the image covers the area without stretching */
+ }
+
+
+
+
+
+
+  .text-overlay {
+   
+    color: rgb(255, 255, 255);
+    font-family: 'Great Vibes', cursive;
+
+
+
+    
+  }

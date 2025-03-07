@@ -1,0 +1,27 @@
+body {
+    background-color: white; /* Light background */
+}
+.container {
+    margin-top: 5%;
+}
+table {
+    width: 100%; /* Full width */
+}
+th, td {
+    text-align: center; /* Center align text */
+}
+.back-link {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    font-size: 18px; 
+    color: #007bff; 
+    text-decoration: none; 
+}
+.back-link:hover {
+    text-decoration: underline; 
+}
+
+.table td {
+    vertical-align: middle;
+}
